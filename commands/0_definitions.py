@@ -1,3 +1,4 @@
+# Setting packages
 import pandas as pd
 import psycopg2
 from sqlalchemy import create_engine # for creating an engine
@@ -23,9 +24,8 @@ def pr_col(text, color, end='\n'):
 import os
 
 
-
+# settings for query from SQL 
 load_dotenv()
-
 DB_STRING = os.getenv('DB_STRING') # gets database string DB_STRING from .env file and assigns it as value for new variable DB_STRING
 db = create_engine(DB_STRING) # creates engine from database string DB_STRING
 

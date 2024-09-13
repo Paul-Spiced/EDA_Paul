@@ -102,3 +102,24 @@ Before you can start with plotly in Jupyter Lab you have to install node.js (if 
    ```Bash
    python.exe -m pip install --upgrade pip
    ```
+
+
+#  Structure of files to be executed
+## EDA _3_cleaning.ipynb accesses and executes following files:
+  *  0_definitions.py file with settings, functions, globals, and lists of variables (=0_definitions.py)
+  *  1_query_SQL.py file containing a SQL query generated in Dbeavary. 
+  *  In EDA_3_cleaning.ipynb, the data undergoes cleaning, reformatting, renaming, and other steps to prepare it for further analysis
+## EDA _4_exp_hyp_1.ipynb targets hypothesis 1: The more bedrooms per entity (square meter) of living area, the lower the price of the house
+  * Additional variables are created or renamed and some graphical explorations are performed
+## EDA _5_exp_hyp_2.ipynb targets hypothesis 2: The year the building was constructed has an influence on the selling price
+  * Additional variables are created or renamed and some graphical explorations are performed
+## EDA _6_exp_hyp_3.ipynb targets hypothesis 3: The year the building was constructed has an influence on the selling price
+  * Additional variables are created or renamed and some graphical explorations are performed
+
+
+
+# Structure of the my Repository file: 
+## in Commands folder following files are stored:
+### all filed for execustion of code are stored: see "Structure of files to be executed" above
+### csv files that are save at every step of process
+

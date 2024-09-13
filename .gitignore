@@ -135,7 +135,8 @@ data/*.zip
 data/*.gsv
 data/*.json
 data_trash/*
-
+commands/*.csv
+images/*
 # models
 models/*.pickle
 models/*.pkl
